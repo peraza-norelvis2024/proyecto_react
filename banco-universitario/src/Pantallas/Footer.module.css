@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #efefef;
+  }
+  
+  .seccion-izquierda {
+    text-align: left;
+  }
+
+  .logo {
+    width: 40%;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .parrafo-footer {
+    font-size: 14px;
+    color: #505050;
+    padding: 0px;
+  }
+  
+  .seccion-derecha {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: rgb(8, 95, 99);
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: rgb(73, 190, 183);
+  }
+  
+  .linea {
+    width: 100%;
+    height: auto;
+    display: block;
+  }  

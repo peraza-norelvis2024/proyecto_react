@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.linea {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logo {
+  width: 20%;
+  margin: 0px 40px;
+}
+
+.logo-usuario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.iniciarSesion {
+  padding: 0px 10px;
+  margin: 0px 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(73, 190, 183);
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.iniciarSesion:hover {
+  background-color: rgb(73, 190, 183);
+  cursor: pointer;
+}
+
+.iniciarSesion p {
+  color: rgb(8, 97, 99);
+  margin-left: 7px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0px;
+}
+
+.icono {
+  color: rgb(8, 97, 99);
+  transition: color 0.3s;
+}
+
+.iniciarSesion:hover .icono{
+  color: white;
+}
+
+.iniciarSesion:hover p{
+  color: white;
+}
+
+.parteCentral {
+  background-color: rgb(73, 190, 183);
+  height: 40px;
+  padding: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 70px;
+}
+
+.nav-links li:hover {
+  transform: scale(1.2);
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat Alternates", sans-serif;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  color: rgb(8, 97, 99);
+}
+
+.banner-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('./Img/banner-background.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 10%;
+}
+
+.banner h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin: 0px;
+}
+
+.subtitulo-banner {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.5em;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.parrafo-banner {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.scroll-to-top {
+  position: relative;
+  margin: 70px 0px -70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-icon {
+  font-size: 30px;
+  color: #085f63;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.arrow-icon:hover {
+  color: #49beb7;
+}

@@ -1,0 +1,80 @@
+.seccion-mision {
+    padding: 20px;
+  }
+  
+  .contenido-mision {
+    display: flex;
+    padding: 30px;
+  }
+  
+  h2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(8, 95, 99);
+    font-size: 80px;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .texto-mision {
+    flex: 1;
+    padding-right: 50px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(52, 61, 51);
+    padding: 80px 30px 30px 30px;
+    margin: 0;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 360px;
+    background-color: rgb(73, 190, 183);
+    margin: 0 20px;
+  }
+
+  .imagenes-mision {
+    flex: 1;
+    position: relative;
+    margin-top: 80px;
+    height: 200px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out, transform 3s ease-in-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .imagenes-mision img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 3s ease-in-out, transform 3s ease-in-out;
+  }
+  
+  .img1 {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .img2 {
+    bottom: 0;
+    left: 25%;
+    transform: translate(-50%, 50%);
+  }
+  
+  .img3 {
+    bottom: 0;
+    right: 25%;
+    transform: translate(50%, 50%);
+  }
