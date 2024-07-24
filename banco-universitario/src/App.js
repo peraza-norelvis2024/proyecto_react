@@ -42,8 +42,8 @@ function App() {
           <p className='subtitulo-banner'>Queridos estudiantes</p>
           <p className='parrafo-banner'>
             Estamos aquí para ofrecerles una experiencia financiera<br/> diseñada especialmente para ustedes.<br/>
-            Inicie sesión con nosotros y aprovechen nuestros servicios,<br/> herramientas digitales 
-            avanzadas y un equipo comprometido <br/>en hacer su vida universitaria más sencilla.<br/>
+            Inicie sesión con nosotros y disfrute de nuestros servicios,<br/> herramientas digitales 
+            y un equipo comprometido <br/>en hacer su vida universitaria más sencilla.<br/>
             El Banco Universitario esta aquí para apoyarlos <br/>en cada paso de su camino académico.<br/>
             ¡Únanse a nuestra comunidad y descubran <br/>todo lo que podemos hacer por ustedes!
           </p>
