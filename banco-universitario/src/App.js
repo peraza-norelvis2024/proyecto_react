@@ -29,11 +29,11 @@ function App() {
         <div className="parteCentral">
           <nav>
             <ul className='nav-links'>
-              <li><ScrollLink to="Mision" smooth={true} duration={700}>Misión</ScrollLink></li>
-              <li><ScrollLink to="Vision" smooth={true} duration={700}>Visión</ScrollLink></li>
-              <li><ScrollLink to="Objetivos" smooth={true} duration={700}>Objetivos</ScrollLink></li>
-              <li><ScrollLink to="Servicios" smooth={true} duration={700}>Servicios</ScrollLink></li>
-              <li><ScrollLink to="Contacto" smooth={true} duration={700}>Contacto</ScrollLink></li>
+              <li><ScrollLink to="Mision" smooth={true} duration={900}>Misión</ScrollLink></li>
+              <li><ScrollLink to="Vision" smooth={true} duration={900}>Visión</ScrollLink></li>
+              <li><ScrollLink to="Objetivos" smooth={true} duration={900}>Objetivos</ScrollLink></li>
+              <li><ScrollLink to="Servicios" smooth={true} duration={900}>Servicios</ScrollLink></li>
+              <li><ScrollLink to="Contacto" smooth={true} duration={900}>Contacto</ScrollLink></li>
             </ul>
           </nav>
         </div>
@@ -62,7 +62,7 @@ function App() {
         <Servicios />
       </div>
       <div className="scroll-to-top">
-        <ScrollLink to="header" smooth={true} duration={700}>
+        <ScrollLink to="header" smooth={true} duration={900}>
           <FaAngleDoubleUp title="Ir al Inicio" className="arrow-icon" />
         </ScrollLink>
       </div>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './Servicios.module.css';
-import logo from '../Img/logo-no-background-white.png';
 import PDF from '../PDF/Más De Nuestros Servicios.pdf';
 import video from '../Videos/Que es el sistema financiero.mp4';
 import ReactPlayer from 'react-player';
@@ -13,7 +12,6 @@ const Servicios = () => {
     <div className={styles.container}>
       <div className={styles.seccionIconos}>
         <div className={styles.seccionOverlay}>
-          <img src={logo} alt="logo" className={styles.logo} />
           <h3 className={styles.tituloServicios}>Servicios</h3>
           <div className={styles.seccionContenido}>
             <div className={styles.servicio}>
