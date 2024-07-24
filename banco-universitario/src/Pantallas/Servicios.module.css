@@ -21,14 +21,6 @@
   background-color: rgba(8, 95, 99, 0.9);
 }
 
-.logo {
-  position: absolute;
-  width: 20%;
-  top: 10%;
-  left: 5%;
-  bottom: 5%;
-}
-
 .tituloServicios {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: normal;
