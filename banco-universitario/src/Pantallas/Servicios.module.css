@@ -33,6 +33,7 @@
   display: table;
   width: 60%;
   margin: auto;
+  margin-bottom: 70px;
   text-align: center;
 }
 
@@ -60,7 +61,7 @@
 
 .linkPdf {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 15px 20px;
   background-color: transparent;
   color: white;
