@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
   background-color: #efefef;
@@ -7,22 +8,26 @@
 
 .seccion-izquierda {
   text-align: left;
+  flex: 1;
 }
 
 .logo {
   width: 40%;
-  margin: 20px 0px 20px 0px;
+  max-width: 300px;
+  margin: 20px 0;
 }
 
 .parrafo-footer {
   font-size: 14px;
   color: #505050;
-  padding: 0px;
+  padding: 0;
 }
 
 .seccion-derecha {
   display: flex;
   gap: 20px;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .icon {
@@ -39,4 +44,22 @@
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .seccion-derecha {
+    justify-content: center;
+    margin-top: 20px;
+  }
 }

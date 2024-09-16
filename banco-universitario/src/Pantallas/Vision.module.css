@@ -1,37 +1,65 @@
 .seccion-vision {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url("../Img/background-vision.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(8, 95, 99, 0.9);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Img/background-vision.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 95, 99, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-vision {
+  font-weight: normal;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+
+.parrafo-vision {
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+  text-align: center;
+  margin: 0px 200px;
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .titulo-vision {
+    font-size: 40px;
   }
 
-  .titulo-vision {
-    font-weight: normal;
-    font-size: 90px;
-    color: white;
-    text-align: center;
-    margin: 0px;
-  }
-  
   .parrafo-vision {
-    font-size: 20px;
-    line-height: 1.6;
-    color: white;
-    text-align: center;
-    margin: 0px 200px;
+    font-size: 16px;
+    margin: 0px 20px;
   }
+
+  .overlay {
+    padding: 20px;
+  }
+}
+
+/* Media Queries para pantallas de 820px en adelante */
+@media only screen and (min-width: 820px) {
+  .titulo-vision {
+    font-size: 70px;
+  }
+
+  .parrafo-vision {
+    font-size: 18px;
+    margin: 0px 100px;
+  }
+}
