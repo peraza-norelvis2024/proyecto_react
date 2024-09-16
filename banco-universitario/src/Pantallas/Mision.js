@@ -24,9 +24,9 @@ const Mision = () => {
         </div>
         <div className={styles['vertical-line']}></div>
         <div className={`${styles['imagenes-mision']} ${inView ? styles['visible'] : ''}`}>
-          <img src={mision_1} alt="mision" className={styles.img1} />
-          <img src={mision_2} alt="mision" className={styles.img2} />
-          <img src={mision_3} alt="mision" className={styles.img3} />
+          <img src={mision_1} alt="Transacción con Tarjeta de Crédito" className={styles.img1} />
+          <img src={mision_2} alt="Retiro de Dinero" className={styles.img2} />
+          <img src={mision_3} alt="Jóvenes estudiantes" className={styles.img3} />
         </div>
       </div>
     </div>

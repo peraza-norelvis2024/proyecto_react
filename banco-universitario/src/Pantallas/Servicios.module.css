@@ -33,7 +33,6 @@
   display: table;
   width: 60%;
   margin: auto;
-  margin-bottom: 70px;
   text-align: center;
 }
 
@@ -41,7 +40,6 @@
   width: 33%;
   vertical-align: top;
   display: inline-table;
-  margin-top: 30px;
 }
 
 .servicio p {
@@ -103,4 +101,93 @@
   color: rgb(52, 61, 51);
   padding: 20px;
   text-align: center;
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .tituloServicios {
+    font-size: 40px;
+  }
+
+  .seccionContenido {
+    width: 90%;
+    display: block;
+  }
+
+  .servicio {
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .servicio p {
+    font-size: 15px;
+  }
+
+  .linkPdf {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .seccionInformacion {
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .seccionIzquierda,
+  .seccionDerecha {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .tituloInformacion {
+    font-size: 24px;
+  }
+
+  .parrafoInformacion {
+    font-size: 16px;
+  }
+}
+
+/* Media Queries para pantallas de 820px en adelante */
+@media only screen and (min-width: 820px) {
+ /* .tituloServicios {
+    font-size: 70px;
+  }
+
+  .seccionContenido {
+    width: 70%;
+    display: flex;
+  }
+
+  .servicio {
+    width: 30%;
+  }
+
+  .seccionMas {
+    font-size: 50px;
+  }
+
+  .linkPdf {
+    font-size: 18px;
+    padding: 15px 20px;
+  }*/
+
+  .seccionInformacion {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .seccionIzquierda,
+  .seccionDerecha {
+    padding: 30px;
+  }
+
+  .tituloInformacion {
+    font-size: 30px;
+  }
+
+  .parrafoInformacion {
+    font-size: 20px;
+  }
 }
