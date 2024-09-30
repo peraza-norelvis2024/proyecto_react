@@ -1,8 +1,8 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-import mision_1 from '../Img/mision_1.jpg';
-import mision_2 from '../Img/mision_2.jpg';
-import mision_3 from '../Img/mision_3.jpg';
+import mision_1 from '../img/mision-1.jpg';
+import mision_2 from '../img/mision-2.jpg';
+import mision_3 from '../img/mision-3.jpg';
 import styles from './Mision.module.css';
 
 const Mision = () => {
@@ -24,9 +24,9 @@ const Mision = () => {
         </div>
         <div className={styles['vertical-line']}></div>
         <div className={`${styles['imagenes-mision']} ${inView ? styles['visible'] : ''}`}>
-          <img src={mision_1} alt="Transacción con Tarjeta de Crédito" className={styles.img1} />
-          <img src={mision_2} alt="Retiro de Dinero" className={styles.img2} />
-          <img src={mision_3} alt="Jóvenes estudiantes" className={styles.img3} />
+          <img src={mision_1} alt="Transacción con Tarjeta de Crédito" className={styles.img1} loading='lazy'/>
+          <img src={mision_2} alt="Retiro de Dinero" className={styles.img2} loading='lazy'/>
+          <img src={mision_3} alt="Jóvenes estudiantes" className={styles.img3} loading='lazy'/>
         </div>
       </div>
     </div>
