@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import styles from './Footer.module.css';
-import logo from '../Img/logo-no-background.png';
-import linea from '../Img/linea.png';
+import logo from '../img/logo-no-background.png';
+import linea from '../img/linea.png';
 
 const Footer = () => {
   return (
@@ -20,13 +20,13 @@ const Footer = () => {
           </p>
         </div>
         <div className={styles['seccion-derecha']}>
-          <a href="@bancouniversitariove" target="_blank" rel="noopener noreferrer">
+          <a href="#@bancouniversitariove" target="_blank" rel="noopener noreferrer">
             <FaFacebook className={styles.icon} />
           </a>
-          <a href="@bancouniversitariove" target="_blank" rel="noopener noreferrer">
+          <a href="#@bancouniversitariove" target="_blank" rel="noopener noreferrer">
             <FaInstagram className={styles.icon} />
           </a>
-          <a href="@bancouniversitariove" target="_blank" rel="noopener noreferrer">
+          <a href="#@bancouniversitariove" target="_blank" rel="noopener noreferrer">
             <FaTwitter className={styles.icon} />
           </a>
         </div>

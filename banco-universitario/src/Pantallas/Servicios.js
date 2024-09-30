@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Servicios.module.css';
-import PDF from '../PDF/Más De Nuestros Servicios.pdf';
-import video from '../Videos/Que es el sistema financiero.mp4';
+import PDF from '../pdf/mas-de-nuestros-servicios.pdf';
+import video from '../videos/que-es-el-sistema-financiero.mp4';
 import ReactPlayer from 'react-player';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserFriends, faUniversity, faMoneyBill, faMoneyCheckDollar, faSchoolCircleCheck } from '@fortawesome/free-solid-svg-icons';
@@ -15,24 +15,24 @@ const Servicios = () => {
           <h3 className={styles.tituloServicios}>Servicios</h3>
           <div className={styles.seccionContenido}>
             <div className={styles.servicio}>
-              <FontAwesomeIcon icon={faUserFriends} size="3x" color='White' />
+              <FontAwesomeIcon icon={faUserFriends} size="2x" color='White' />
               <p>Transferencias entre estudiantes sin comisión</p>
             </div>
             <div className={styles.servicio}>
-              <FontAwesomeIcon icon={faUniversity} size="3x" color='White' />
-              <p>Depósitos en efectivo</p>
-            </div>
-            <div className={styles.servicio}>
-              <FontAwesomeIcon icon={faMoneyBill} size="3x" color='White'/>
-              <p>Retiros en efectivo</p>
-            </div>
-            <div className={styles.servicio}>
-              <FontAwesomeIcon icon={faMoneyCheckDollar} size="3x" color='White'/>
+              <FontAwesomeIcon icon={faMoneyCheckDollar} size="2x" color='White'/>
               <p>Pago de matrícula estudiantil</p>
             </div>
             <div className={styles.servicio}>
-              <FontAwesomeIcon icon={faSchoolCircleCheck} size="3x" color='White'/>
+              <FontAwesomeIcon icon={faSchoolCircleCheck} size="2x" color='White'/>
               <p>Cobro de becas estudiantiles</p>
+            </div>
+            <div className={styles.servicio}>
+              <FontAwesomeIcon icon={faUniversity} size="2x" color='White' />
+              <p>Depósitos en efectivo</p>
+            </div>
+            <div className={styles.servicio}>
+              <FontAwesomeIcon icon={faMoneyBill} size="2x" color='White'/>
+              <p>Retiros en efectivo</p>
             </div>
           </div>
         </div>
