@@ -20,13 +20,13 @@ const Footer = () => {
           </p>
         </div>
         <div className={styles['seccion-derecha']}>
-          <a href="#@bancouniversitariove" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/@bancouniversitariove" target="_blank" rel="noopener noreferrer">
             <FaFacebook className={styles.icon} />
           </a>
-          <a href="#@bancouniversitariove" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/@bancouniversitariove" target="_blank" rel="noopener noreferrer">
             <FaInstagram className={styles.icon} />
           </a>
-          <a href="#@bancouniversitariove" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.x.com/@bancouniversitariove" target="_blank" rel="noopener noreferrer">
             <FaTwitter className={styles.icon} />
           </a>
         </div>
